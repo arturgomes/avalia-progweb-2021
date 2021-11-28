@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+# Avaliação final de Programação para Web. 2021 - SINF/CPAN
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Observações:
+- todo o conteúdo da atividade deve ser escrito nesse arquivo: App.tsx
+- A atividade avaliativa é *INDIVIDUAL* 
+- Observe que a partir da etapa 4, você deverá fazer um commit ao encerrar cada uma delas, nomeando o commit de acordo com o nome da etapa.
+- A submissão será aceita com último commit até as 23h59 do dia 30/11. 
+- O commit `Entrega da atividade` que for enviado após esse horário sofrerá uma penalidade de 1 ponto por hora de atraso, e não será aceito após 3h de atraso.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Tarefa:
+0. Clonar o repositório ```https://github.com/arturgomes/avalia-progweb-2021```
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Criar seu próprio repositório no git e configurá-lo com o conteúdo do repositório clonado
+2. Fazer o commit inicial
+3. Executar a aplicação com `yarn start` 
+4. Configurar o arquivo `api.ts` com as definições do _Axios_ e importá-lo no arquivo `App.tsx` (_dar commit em seguida contendo a frase_: `Etapa 4`)
+5. Consultar a rota `/posts/` e imprimir num `console.log` (_dar commit em seguida contendo a frase_: `Etapa 5`)
+6. Salvar todas as postagens obtidas pelo item 4 em uma variável de estado chamado `posts` (_dar commit em seguida contendo a frase_: `Etapa 6`)
+7. criar um select box para que o usuário possa selecionar o `userId` que ele queira listar as postagens  (_dar commit em seguida contendo a frase_: `Etapa 7`)
+   1. O `userId` deverá ser filtrado do array de objetos da variável `posts`.
+   2. 
+8. formatar o conteúdo da variável `posts` em uma tabela formatada de forma semelhante à que foi a tabela da aplicação "poupancinha" usando a biblioteca `styled-components` (_dar commit em seguida contendo a frase_: `Entrega da atividade`)
+9.  Dar o commit final e postar o link do repositório no Classroom
