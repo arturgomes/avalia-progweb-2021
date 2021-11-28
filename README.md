@@ -12,13 +12,13 @@
 0. Clonar o repositório ```https://github.com/arturgomes/avalia-progweb-2021```
 
 1. Criar seu próprio repositório no git e configurá-lo com o conteúdo do repositório clonado
-2. Fazer o commit inicial
+2. _dar commit em seguida contendo a frase_: `Inicio de projeto`
 3. Executar a aplicação com `yarn start` 
-4. Configurar o arquivo `api.ts` com as definições do _Axios_ e importá-lo no arquivo `App.tsx` (_dar commit em seguida contendo a frase_: `Etapa 4`)
-5. Consultar a rota `/posts/` e imprimir num `console.log` (_dar commit em seguida contendo a frase_: `Etapa 5`)
-6. Salvar todas as postagens obtidas pelo item 4 em uma variável de estado chamado `posts` (_dar commit em seguida contendo a frase_: `Etapa 6`)
-7. criar um select box para que o usuário possa selecionar o `userId` que ele queira listar as postagens  (_dar commit em seguida contendo a frase_: `Etapa 7`)
-   1. O `userId` deverá ser filtrado do array de objetos da variável `posts`.
-   2. 
-8. formatar o conteúdo da variável `posts` em uma tabela formatada de forma semelhante à que foi a tabela da aplicação "poupancinha" usando a biblioteca `styled-components` (_dar commit em seguida contendo a frase_: `Entrega da atividade`)
+4. (1 ponto) Configurar o arquivo `api.ts` com as definições do _Axios_ e importá-lo no arquivo `App.tsx` (_dar commit em seguida contendo a frase_: `Etapa 4`) 
+5. (1.5 pontos) Consultar a rota `/posts/` e imprimir num `console.log` (_dar commit em seguida contendo a frase_: `Etapa 5`)
+6. (1.5 ponto) Salvar todas as postagens obtidas pelo item 4 em uma variável de estado chamado `posts` (_dar commit em seguida contendo a frase_: `Etapa 6`) 
+7. (3 pontos) Criar um select box para que o usuário possa selecionar o `userId` que ele queira listar as postagens  (_dar commit em seguida contendo a frase_: `Etapa 7`)
+   - O `userId` deverá ser filtrado do array de objetos da variável `posts`.
+8. (3 pontos) Formatar o conteúdo da variável `posts` em uma tabela formatada de forma semelhante à que foi a tabela da aplicação "poupancinha" usando a biblioteca `styled-components` (_dar commit em seguida contendo a frase_: `Entrega da atividade`)
+   - Apenas um `userId` deverá ter seus posts exibidos, pela realização da `Etapa 7`.
 9.  Dar o commit final e postar o link do repositório no Classroom
